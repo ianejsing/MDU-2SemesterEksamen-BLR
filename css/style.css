@@ -6,7 +6,38 @@
 
 header img{
     position: absolute;
+    z-index: 10;
+}
+.headerindhold nav{
+    right: 0px;
     z-index: 0;
+    position: absolute;
+    color: white;
+    font-size: 2em;
+}
+#logo-burger {
+    display: flex;
+    align-items: center;
+    margin-left: .5em;
+}
+#main-nav a {
+    color: white;
+    text-decoration: none;
+}
+#main-nav {
+    
+    display: flex;
+    margin-right: .5em;
+    list-style: none;
+}
+#main-nav a {
+    display: block;
+    margin-left: 1em;
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+.hidden {
+    display: none;
 }
 
 header h1{
@@ -15,6 +46,7 @@ header h1{
 }
 #toptekstur {
     width: 100%;
+    z-index: 0;
 }
 
 .paralax {
@@ -120,6 +152,61 @@ header h1{
 /*MEDIA QUERY MOBILE */
 
 @media all and (max-width: 599px) {
+    .logo{
+        width: 50%;
+    }
+    
+    #logo-burger label {
+        display: block;
+        cursor: pointer;
+        z-index: 2;
+        color: white;
+        font-size: 3em;
+        position: absolute;
+        background-color: black;
+        right: 2px;
+        top: 0; 
+        border: white solid 2px;
+        border-radius: 10%;
+        width: 60px;
+        height: 60px;
+        text-align: center;
+
+    }
+        #toggle:checked + #main-nav {
+        display: block;
+    }
+      #main-nav{
+        display: none;
+    }
+       nav li {
+           text-align: center;
+           border-bottom: white solid 3px;
+           z-index: 999;
+   
+    }
+    nav ul{
+        margin-top: 50px;
+        z-index: 999;
+        
+    }
+    nav{
+        width: 100%;
+        background-color: black;
+       
+    }
+    .headerindhold nav{
+        z-index: 1;
+    }
+
+    
+    
+    #toptekstur{
+        height: 10%;       
+    }
+    .paralax{
+        min-height: 600px;
+    }
     
 }
 
