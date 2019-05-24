@@ -13,8 +13,10 @@ header img{
     z-index: 0;
     position: absolute;
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
+    top: 0;   
 }
+
 #logo-burger {
     display: flex;
     align-items: center;
@@ -213,7 +215,9 @@ header h1{
 /*MEDIA QUERY TABLET AND ABOVE*/
 
 @media all and (min-width: 600px) {
-    
+    nav{
+  
+    }
 }
 
 /*MEDIA QUERY LAPTOP AND ABOVE*/
