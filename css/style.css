@@ -2,17 +2,35 @@
     margin: 0;
     padding: 0;
 }
+
+header img{
+    position: absolute;
+    z-index: 0;
+}
+
+header h1{
+    color: white;
+    position: absolute;   
+}
+#toptekstur {
+    width: 100%;
+}
+
 .paralax {
-        width: 100%;
+    width: 100%;
     min-height: 900px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    
 }
+.logo{
+    width: 25%;
+}
+
 .bg1 {
     background-image: url(../images/forsidebillede1.jpg);
 }
+
 
 #forsideslogan {
     color: white;
@@ -25,21 +43,23 @@
     text-align: center;
 }
 
-.spacer i {
+.spacer {
     color: white;
     background-color: black;
     width: 100%;
     height: 60px;
-    
+    text-align: center;
+       
 }
 
 .material-icons {
-    align-items: center;
+     
+}
+.spacer i{
+    font-size: 4em;
 }
 
-#toptekstur {
-    width: 100%;
-}
+
 
 .overskrift {
     font-size: 300%;  
@@ -70,13 +90,26 @@
      font-size: 330%;
     text-align: center;
     color: white;
-    margin-top: 10%;
     
     background-color: black;
+    width: 30%;
+    margin: 5% auto;
+    border: solid white 2px;
+}
+.bg2 div{
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px;
+    padding-top: 0;
+ 
+}
+.alpha{
+        background-color: rgba(0,0,0,0.4);
 }
 
 .bg2 {
     background-image: url(../images/pladebillede.jpg);
+    padding-top: 50px;
 }
 
 
