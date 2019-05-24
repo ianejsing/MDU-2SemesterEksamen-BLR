@@ -89,10 +89,10 @@ header h1{
 #findos {
      font-size: 330%;
     text-align: center;
-    color: white;
-    
+    color: white;  
     background-color: black;
     width: 30%;
+    max-width: 300px;
     margin: 5% auto;
     border: solid white 2px;
 }
