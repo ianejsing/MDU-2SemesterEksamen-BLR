@@ -116,15 +116,20 @@ header h1{
 
 footer {
     color: white;
-    display: flex;
     font-size: 190%;
 
     
+}
+.footindhold{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
 }
 
 #bundtekstur {
     position: absolute;
     z-index: -1;
+    width: 100%;
 }
 
 .somelogoer{
@@ -134,17 +139,21 @@ footer {
 }
 
 .somedele {
-    padding: 2% 0% 0% 25%;
+    width: 35%;
 }
 
-#tider {
-    padding: 8% 0% 0% 15%;
+.footindhold section{
+    margin: 2% 0% 0% 15%;
+    width: 40%;
 }
 
 
 a{
     text-decoration: none;
     color: white;
+}
+.footindhold section ul{
+    list-style: none;
 }
 
 
@@ -154,12 +163,24 @@ a{
 
 @media all and (max-width: 599px) {
     
+    
+    
+    /*Footer*/
+    #bundtekstur{
+        margin-top: 150px;
+    }
+    .footindhold{
+        background-color: black;
+        font-size: 0.7em;
+    }
 }
 
 /*MEDIA QUERY TABLET AND ABOVE*/
 
 @media all and (min-width: 600px) {
-    
+     #bundtekstur{
+        margin-top: 100px;
+    }
 }
 
 /*MEDIA QUERY LAPTOP AND ABOVE*/
