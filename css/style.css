@@ -196,6 +196,31 @@ a {
     display: flex;
 }
 
+.bigtext{
+color: white;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translate(0%, -50%);
+    font-size: 4em;
+    width: 40%;
+    text-align: center;
+    text-shadow: 2px 3px black;
+}
+.bigpic {
+    width: 100%;
+}
+
+#wantlist{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 5% auto;
+}
+#wantlist ol{
+    margin: 1%;
+}
 /* footer */
 
 footer {
@@ -347,11 +372,9 @@ a {
     }
 }
 
-/*Underside om os*/
+/*Undersider*/
 
-#omos {
-    width: 100%;
-}
+
 
 .overskriftsort{
 font-size: 300%;
@@ -383,6 +406,10 @@ color: white;
 
 
 
+
+
+
+
 /*MEDIA QUERY TABLET AND ABOVE*/
 
 @media all and (min-width: 600px) {
@@ -406,11 +433,19 @@ color: white;
     }
 
 
-#velkommen{
+    #velkommen{
     top: 42%;
     font-size: 300%;
     width: 40%;
 
+    }
+       .bigtext{
+        top: 50%;
+        left: 50%;
+           font-size: 6em;
+    }
+    
+    
 }
 
 /*MEDIA QUERY LAPTOP AND ABOVE*/
@@ -419,6 +454,7 @@ color: white;
     .headerindhold nav {
         font-size: 2em;
     }
+ 
     
 #velkommen{
     top: 62%;
