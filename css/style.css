@@ -112,6 +112,41 @@ header h1{
     padding-top: 50px;
 }
 
+/* footer */
+
+footer {
+    color: white;
+    display: flex;
+    font-size: 190%;
+
+    
+}
+
+#bundtekstur {
+    position: absolute;
+    z-index: -1;
+}
+
+.somelogoer{
+    width: 15%;
+    align-self: center;
+    padding: 4% 0% 0% 0%;
+}
+
+.somedele {
+    padding: 2% 0% 0% 25%;
+}
+
+#tider {
+    padding: 8% 0% 0% 15%;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+
 
 
 /*MEDIA QUERY MOBILE */
