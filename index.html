@@ -20,24 +20,41 @@
 </head>
 
 <body>
-    <header>
-        <img id="toptekstur" src="images/topside3.png" alt="menutexture">
-        <img class="logo" src="images/logo.png" alt="logo">
-    </header>
 
-    <main>
-
-        <div class="paralax bg1">
-
-            <p id="forsideslogan">- Man skal høre meget før ørene falder af</p>
-        </div>
-        <div class="spacer">
-            <i class="material-icons">keyboard_arrow_down</i>
-        </div>
-        <h1 class="overskrift">Nyheder</h1>
-        <p class="broedtekst">Herunder kan du rulle igennem de nyeste brugte plade vi har fået ind i butikken</p>
-        <div>
-        </div>
+<header>
+    <img id="toptekstur" src="images/topside3.png" alt="menutexture">
+    <div class=headerindhold>  
+        <section id="logo-burger">
+            <a id="logo" href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
+            <label for="toggle">&#9776;</label>
+        </section>
+        <nav>
+            <input type="checkbox" id="toggle" class="hidden">
+            <!-- This has to be outside of #logo-burger to work. #main-nav cannot be selected when this is in a container -->
+            <ul id="main-nav">
+                <li><a href="#">News</a></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Wantlist</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+  
+   <main>
+          
+       <div class="paralax bg1">
+          
+           <p id="forsideslogan">- Man skal høre meget før ørene falder af</p>
+       </div>
+       <div class="spacer">
+           <i class="material-icons">keyboard_arrow_down</i>
+       </div>
+       <h1 class="overskrift">Nyheder</h1>
+       <p class="broedtekst">Herunder kan du rulle igennem de nyeste brugte plade vi har fået ind i butikken</p>
+       <div>
+       </div>
         <div class="spacer">
             <i class="material-icons">keyboard_arrow_down</i>
         </div>
