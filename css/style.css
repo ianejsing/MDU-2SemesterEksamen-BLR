@@ -119,7 +119,7 @@ header img{
     padding: 5px;
 }
 .news section{
-    background-color: yellow;
+    background-color: #C79E45;
     height: 350px;
     width: 60%;
     margin: 0 auto;
@@ -130,8 +130,8 @@ header img{
 }
 
 .news section div{
-    margin: 5%;
-    background-color: red;
+    margin: 3%;
+    background-color: #EADDBF;
   text-align: center;
     border-radius: 5%;
 }
