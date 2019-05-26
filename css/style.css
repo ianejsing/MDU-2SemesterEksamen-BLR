@@ -130,11 +130,14 @@ header img{
 }
 
 .news section div{
+    margin: 5%;
     background-color: red;
-    width: 30%;
-    height: 40%;
-    
-    
+  text-align: center;
+    border-radius: 5%;
+}
+.news section div img{
+    width: 80%;
+    margin: 2px;
 }
 
 .broedtekst {
