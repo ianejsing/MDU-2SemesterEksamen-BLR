@@ -132,7 +132,7 @@ header img{
 .news section div{
     background-color: red;
     width: 30%;
-    height: 60%;
+    height: 40%;
     
     
 }
@@ -237,6 +237,7 @@ a{
 /*MEDIA QUERY MOBILE */
 
 @media all and (max-width: 599px) {
+    
     .logo{
         width: 50%;
     }
@@ -293,12 +294,14 @@ a{
         min-height: 600px;
 
     }
-        .about div img{
-        width: 70%;
+    .about div img{
+        width: 80%;
         margin: 2%;
     }
-    .about div{
-        text-align: center;
+      .about div {
+        flex-wrap: wrap;
+        align-items: center;
+          justify-content: center;
     }
     
         .news section div{
@@ -318,6 +321,7 @@ a{
         font-size: 0.7em;
 
 
+    }
 }
 
 /*MEDIA QUERY TABLET AND ABOVE*/
@@ -332,15 +336,15 @@ a{
     }
     
     .about div {
-        margin: 5% 0;
-        display: flex;
-        justify-content: space-evenly;
-       
+        justify-content: space-around;
+        align-items: center;
     }
     .about div img{
-        width: 30%;
-        height: 30%;
+        width: 35%;
+        margin: 2%;
     }
+
+
 
 }
 
