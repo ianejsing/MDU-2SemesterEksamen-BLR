@@ -149,6 +149,7 @@ header img {
 .broedtekst {
     font-size: 1.5em;
     text-align: center;
+    margin: 0 5%;
 }
 
 .broedteksthvid {
@@ -221,6 +222,21 @@ color: white;
 #wantlist ol{
     margin: 1%;
 }
+.contact{
+    margin: 150px 0;
+}
+.contact a{
+    color: black;
+    text-decoration-line: underline
+}
+.smalltekst{
+    width: 80%;
+    margin: 0 auto 10px;
+}
+
+
+
+
 /* footer */
 
 footer {
