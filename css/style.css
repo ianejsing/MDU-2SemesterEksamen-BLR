@@ -148,51 +148,6 @@ header img{
     padding-top: 50px;
 }
 
-/* footer */
-
-footer {
-    color: white;
-    font-size: 190%;
-
-    
-}
-.footindhold{
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-}
-
-#bundtekstur {
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-}
-
-.somelogoer{
-    width: 15%;
-    align-self: center;
-    padding: 4% 0% 0% 0%;
-}
-
-.somedele {
-    width: 35%;
-}
-
-.footindhold section{
-    margin: 2% 0% 0% 15%;
-    width: 40%;
-}
-
-
-a{
-    text-decoration: none;
-    color: white;
-}
-.footindhold section ul{
-    list-style: none;
-}
-
-
 
 
 /*MEDIA QUERY MOBILE */
@@ -254,27 +209,13 @@ a{
         min-height: 600px;
     }
     
-    
-    
-    /*Footer*/
-    #bundtekstur{
-        margin-top: 150px;
-    }
-    .footindhold{
-        background-color: black;
-        font-size: 0.7em;
-    }
 }
 
 /*MEDIA QUERY TABLET AND ABOVE*/
 
 @media all and (min-width: 600px) {
-     #bundtekstur{
-        margin-top: 100px;
-    }
     .headerindhold nav{
         font-size: 1em;
-
     }
 }
 
@@ -285,4 +226,3 @@ a{
         font-size: 2em;
     }
 }
-    
