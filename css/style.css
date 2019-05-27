@@ -284,6 +284,16 @@ color: white;
 }
 
 
+//*Effekt på shop*//
+
+#shop {
+    transition: transform .5s;
+}
+#shop:hover {
+     transition: transform .5s;
+    transform: scale(1.10);
+}
+
 
 
 /* footer */
