@@ -292,13 +292,12 @@ color: white;
 
 
 
-//*Effekt på shop*//
+/*Effekt på shop*/
 
 #shop {
     transition: transform .5s;
 }
 #shop:hover {
-     transition: transform .5s;
     transform: scale(1.10);
 }
 
@@ -550,4 +549,5 @@ color: white;
     top: 62%;
     font-size: 400%;
     width: 40%;
+    }
 }
