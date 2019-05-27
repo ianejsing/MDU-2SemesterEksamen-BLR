@@ -135,15 +135,17 @@ header img {
 }
 
 .news section div {
-    margin: 3%;
+    margin: 2%;
     background-color: #EADDBF;
     text-align: center;
     border-radius: 5%;
+
 }
 
 .news section div img {
     width: 80%;
     margin: 2px;
+
 }
 
 .broedtekst {
