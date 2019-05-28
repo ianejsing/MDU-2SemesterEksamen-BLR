@@ -204,6 +204,10 @@ a {
     display: flex;
 }
 
+a .about{
+    color: black;
+}
+
 /*Effekt på pile*/
 
 .material-icons {
